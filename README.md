@@ -20,13 +20,12 @@ This Python script allows you to manually control the X, Y, and Z axes of a 3D p
   - `pynput`
   - `pyserial`
 
-## Installation
+## Install Required Tools
 
-1. Clone this repository or download the script:
+1. First, update your package list and install the required tools:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-   pip install pynput pyserial
+   sudo apt-get update
+   pip3 install pynput pyserial
    ```
 ## Configuration
 
